@@ -83,7 +83,7 @@ The Oxidiser takes a graphitic structure and attempts to oxidise it by the proce
   year = {2020},
   doi = {},
 }
-@misc{make-graphitics-github,
+@misc{albadri2020accurate-github,
     url = {https://github.com/maalbadri/Accurate-large-scale-modelling-of-GrapheneOxide},
     howpublished = {\url{https://github.com/maalbadri/Accurate-large-scale-modelling-of-GrapheneOxide}},
     note = {Accessed: \today},
