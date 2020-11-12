@@ -1,6 +1,6 @@
 # Supplementary Code and Data
 
-This repository includes data and code from the `Accurate large scale modelling of GrapheneOxide:  ion trapping and chaotropic potential atthe interface` paper. It gives a breakdown of using the `makegraphitics` code [^bignote] for making the graphene-oxide sheet structure and forcefield. 
+This repository includes data and code from the `Accurate large scale modelling of GrapheneOxide:  ion trapping and chaotropic potential atthe interface` paper. It gives a breakdown of using the `makegraphitics` code <sup>1</sup> for making the graphene-oxide sheet structure and forcefield. 
 
 # Graphene Oxide Builder
 
@@ -67,7 +67,7 @@ The Oxidiser takes a graphitic structure and attempts to oxidise it by the proce
 
 # Citing
 
-[^bignote]: The work contained here has been published in the following papers: 
+<sup>1</sup>: The work contained here has been published in the following papers: 
 
  - Modeling Nanostructure in Graphene Oxide: Inhomogeneity and the Percolation Threshold https://doi.org/10.1021/acs.jcim.9b00114
 
