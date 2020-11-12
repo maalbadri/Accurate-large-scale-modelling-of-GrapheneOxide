@@ -1,6 +1,6 @@
 # Supplementary Code and Data
 
-This repository includes data and code from the `Accurate large scale modelling of GrapheneOxide:  ion trapping and chaotropic potential atthe interface` paper. It gives a breakdown of using the `makegraphitics` code [^1] for making the graphene-oxide sheet structure and forcefield. 
+This repository includes data and code from the `Accurate large scale modelling of GrapheneOxide:  ion trapping and chaotropic potential atthe interface` paper. It gives a breakdown of using the `makegraphitics` code [^bignote] for making the graphene-oxide sheet structure and forcefield. 
 
 # Graphene Oxide Builder
 
@@ -41,7 +41,7 @@ There are several tunable parameters in `GO_rect.py` that you may be interested 
 
 ## DDEC parametrisation
 
-DFT calculations of the above `.xyz` output can be performed using the ONETEP electronic structure calculation package. The ONETEP code version 6 is available from www.onetep.org. Instructions for implementing Density derived electrostatic and chemical (DDEC) electron density partitioning are available [here](https://www.onetep.org/pmwiki/uploads/Main/Documentation/ddec.pdf).
+DFT calculations of the above `.xyz` output can be performed using the ONETEP electronic structure calculation package. The ONETEP code version 6 is available from www.onetep.org. Instructions for implementing Density Derived Electrostatic and Chemical (DDEC) electron density partitioning are available [here](https://www.onetep.org/pmwiki/uploads/Main/Documentation/ddec.pdf).
 
 The Lennard-Jones parameters can be calculated using the Tkatchenko-Scheffler relations using the [QUBEKit](https://github.com/qubekit/QUBEKit) package. Installation and instructions are available [here](https://github.com/qubekit/QUBEKit#qubekit-commands-custom-start-and-end-points-single-molecule). 
 
@@ -49,7 +49,7 @@ The Lennard-Jones parameters can be calculated using the Tkatchenko-Scheffler re
 
 The DDEC forcefield file for the DDEC GO used in this paper is provided in the `example_input` folder.
 
-# Notes on the Oxidiser 
+### Notes on the Oxidiser 
 
 The Oxidiser takes a graphitic structure and attempts to oxidise it by the process described in (Yang, Angewandte Chemie, 2014; Sinclair, 2019). The algorithm proceeds as follows:
 
@@ -67,7 +67,7 @@ The Oxidiser takes a graphitic structure and attempts to oxidise it by the proce
 
 # Citing
 
-[^1]: The work contained here has been published in the following papers: 
+[^bignote]: The work contained here has been published in the following papers: 
 
  - Modeling Nanostructure in Graphene Oxide: Inhomogeneity and the Percolation Threshold https://doi.org/10.1021/acs.jcim.9b00114
 
