@@ -29,7 +29,7 @@ conda activate graphene
 
 ## Instructions 
 
-1) Make a rectangular graphene sheet that extends through periodic boundaries. Parameterised with OPLS and outputs to .xyz for easy veiwing with VMD and a LAMMPS data file.
+Make a rectangular graphene sheet that extends through periodic boundaries. Parameterised with OPLS and outputs to .xyz for easy veiwing with VMD and a LAMMPS data file.
 ```
 python2.7 GO_rect.py
 ```
@@ -47,7 +47,7 @@ The Lennard-Jones parameters can be calculated using the Tkatchenko-Scheffler re
 
 ## Supplementary Data
 
-The DDEC forcefield file for the DDEC GO used in this paper is provided in the `example_input` folder.
+The OPLS and DDEC forcefield files for the GO sheet used in this paper is provided in the `example_input` folder.
 
 # Citing
 
