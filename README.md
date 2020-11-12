@@ -1,6 +1,6 @@
 # Supplementary Code and Data
 
-This repository includes data and code from the `Accurate large scale modelling of GrapheneOxide:  ion trapping and chaotropic potential atthe interface` paper. It gives a breakdown of using the `makegraphitics` code <sup>1</sup> for making the graphene-oxide sheet structure and forcefield. 
+This repository includes data and code from the **Accurate large scale modelling of GrapheneOxide:  ion trapping and chaotropic potential at the interface** paper. It gives a breakdown of using the `makegraphitics` code <sup>1</sup> for making the graphene-oxide sheet structure and forcefield. 
 
 # Graphene Oxide Builder
 
