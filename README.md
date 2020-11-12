@@ -83,6 +83,13 @@ The Oxidiser takes a graphitic structure and attempts to oxidise it by the proce
   year = {2020},
   doi = {},
 }
+@misc{make-graphitics-github,
+    url = {https://github.com/maalbadri/Accurate-large-scale-modelling-of-GrapheneOxide},
+    howpublished = {\url{https://github.com/maalbadri/Accurate-large-scale-modelling-of-GrapheneOxide}},
+    note = {Accessed: \today},
+    author = {al-Badri, Mohamed Ali and Sinclair, Robert C.},
+    year = {2020}
+}
 @article{sinclair2019modelling,
   title={Modelling nanostructure in graphene oxide: inhomogeneity and the percolation threshold},
   author={Sinclair, Robert Callum and Coveney, Peter Vivian},
