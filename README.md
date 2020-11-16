@@ -39,11 +39,15 @@ There are several tunable parameters in `GO_rect.py` that you may be interested 
 - Rate at which new nodes are added, `new_island_freq`
 - output snapshots of the oxidation process every N steps with `video_xyz=N`. Viewed in VMD with `topo readvarxyz out.xyz`
 
-## DDEC parametrisation
+### DDEC parametrisation
 
 DFT calculations of the above `.xyz` output can be performed using the ONETEP electronic structure calculation package. The ONETEP code version 6 is available from www.onetep.org. Instructions for implementing Density Derived Electrostatic and Chemical (DDEC) electron density partitioning are available [here](https://www.onetep.org/pmwiki/uploads/Main/Documentation/ddec.pdf).
 
-The Lennard-Jones parameters can be calculated using the Tkatchenko-Scheffler relations using the [QUBEKit](https://github.com/qubekit/QUBEKit) package. Installation and instructions are available [here](https://github.com/qubekit/QUBEKit#qubekit-commands-custom-start-and-end-points-single-molecule). 
+The Lennard-Jones parameters can be calculated using the Tkatchenko-Scheffler relations using the [QUBEKit](https://github.com/qubekit/QUBEKit) package. Installation and instructions are available [here](https://github.com/qubekit/QUBEKit#qubekit-commands-custom-start-and-end-points-single-molecule). The charge and Lennard-Jones parameters from QUBEKit are exported into a Gromacs `.itp` using the pre-existing OPLS `.itp` forcefield file.
+
+### Data conversion
+
+Output LAMMPS `.data` files were converted to Gromacs `.itp` format using in-house code. Other data conversions, such as structure files (`.xyz` to `.gro`) can be converted using [MDAnalysis](https://github.com/MDAnalysis/mdanalysis) and/or built-in Gromacs tools.
 
 ## Supplementary Data
 
